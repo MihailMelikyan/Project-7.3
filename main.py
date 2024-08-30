@@ -56,3 +56,14 @@ print(finder2.get_all_words()) # Все слова
 print(finder2.find('TEXT')) # 3 слово по счёту
 print(finder2.count('teXT')) # 4 слова teXT в тексте всего
 
+
+finder3 = WordsFinder('Walt Whitman - O Captain! My Captain!.txt')
+print(finder1.get_all_words())
+print(finder1.find('captain'))
+print(finder1.count('captain'))
+
+finder4 = WordsFinder('Rudyard Kipling - If.txt',)
+
+print(finder1.get_all_words())
+print(finder1.find('if'))
+print(finder1.count('if'))
